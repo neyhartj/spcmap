@@ -3,7 +3,7 @@
 spcmap
 ======
 
-An R package to map coordinates with NOAA Storm Prediction Center severe weather risks
+An R package to map coordinates with 'NOAA' Storm Prediction Center severe weather risks
 
 Introduction
 ------------
@@ -61,6 +61,11 @@ plot(spc)
 ```
 
 ![](README-plot-1.png)
+
+Notes
+-----
+
+In accordance with the 'NOAA'/'NWS' [disclaimer](http://www.weather.gov/disclaimer), please note that this R package is in no way affiliated with 'NOAA' and has not been endorsed by 'NOAA.' The information provided in the package is not official government information. I claim no copyright over for the information provided by 'NOAA.'
 
 Author
 ------

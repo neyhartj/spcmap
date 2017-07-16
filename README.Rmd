@@ -12,7 +12,7 @@ library(spcmap)
 ```
 
 # spcmap
-An R package to map coordinates with NOAA Storm Prediction Center severe weather risks
+An R package to map coordinates with 'NOAA' Storm Prediction Center severe weather risks
 
 ## Introduction
 This is a small package that contains a few functions to plot coordinates of interest
@@ -41,9 +41,10 @@ dat <- data.frame(
 ```
 
 Use the `spcmap` function to download the SPC data for a particular day and type.
-You can download data for the current day or up to two days in the future. Outlook
-types include categorical, tornado, hail, and wind. The following table outlines
-the codes:
+This function downloads a `.kml` file from the Storm Prediction Center 
+[website](http://www.spc.noaa.gov/gis/). You can download data for the current 
+day or up to two days in the future. Outlook types include categorical, tornado, 
+hail, and wind. The following table outlines the codes:
 
   Type         Outlook
 ---------   ----------------
@@ -74,6 +75,13 @@ plot(spc)
 
 ```
 
+## Notes
+
+In accordance with the 'NOAA'/'NWS'
+[disclaimer](http://www.weather.gov/disclaimer), please note that this R package 
+is in no way affiliated with 'NOAA' and has not been endorsed by 'NOAA.' The 
+information provided in the package is not official government information. I
+claim no copyright over for the information provided by 'NOAA.'
 
 ## Author
 Jeff Neyhart
