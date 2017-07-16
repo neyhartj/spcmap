@@ -1,9 +1,20 @@
 Package: spcmap
-Title: What the Package Does (one line, title case)
+Title: Map Coordinates with NOAA Storm Prediction Center Severe Weather Risks
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Jeff", "Neyhart", email = "neyhartje@gmail.com", role = c("aut", "cre"))
+Description: Takes a set of coordinates and determines if the coordinates fall
+    in one of the sever weather outlook categories provided by the NOAA Storm
+    Prediction Center. Produces maps of the severe weather categories and the
+    coordinates of interest.
 Depends: R (>= 3.3.3)
-License: What license is it under?
+Imports:
+    broom,
+    dplyr,
+    ggplot2,
+    sp,
+    maps,
+    rgdal
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
